@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.IO Tutorial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="caontainer mt-5">
+        <div class="row">
+            <div class="col-md-2">
+                <div class="inbox_people">
+                    <h5>Active Users</h5>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+
+                <div class="inbox_messages">
+                    <div class="message_history">
+
+                    </div>
+
+                    <div class="typing">
+                        
+                    </div>
+                </div>
+
+                
+                <form class="message_form">
+                    <input type="text" class="message_form_input" placeholder="type your message" />
+
+                    <button class="message_form_button" type="submit">Enter</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
+    <script src="main.js"> </script>
+</body>
+</html>
